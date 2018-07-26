@@ -135,7 +135,25 @@
 		+420 721 148 521<br />
 		info@cnbn.cz
 	</div>
-	<iframe src="https://www.sreality.cz/adresar/centrum-noveho-bydleni-s-r-o-praha-cast-obce-vinohrady/18269/inzeraty">
+	
+	<script language="JavaScript">
+	<!--
+	function autoResize(id){
+	    var newheight;
+	    var newwidth;
+
+	    if(document.getElementById){
+		newheight=document.getElementById(id).contentWindow.document .body.scrollHeight;
+		newwidth=document.getElementById(id).contentWindow.document .body.scrollWidth;
+	    }
+
+	    document.getElementById(id).height= (newheight) + "px";
+	    document.getElementById(id).width= (newwidth) + "px";
+	}
+	//-->
+	</script>
+	<iframe  id="iframe1" onLoad="autoResize('iframe1');" src="https://www.sreality.cz/adresar/centrum-noveho-bydleni-s-r-o-praha-cast-obce-vinohrady/18269/inzeraty">
 	</iframe>
+	
 </body>
 </html>
